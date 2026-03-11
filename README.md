@@ -13,7 +13,7 @@ cd AlphaBald
 # Installing the dependencies
 You need to install the dependencies, do it with **CONDA**:
 ```bash
-conda create -f environment.yml
+conda env create --f environment.yml
 conda activate AlphaBald
 ```
 Once you have the environment activated, you can run the notebook or the script.
