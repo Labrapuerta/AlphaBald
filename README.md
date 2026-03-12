@@ -20,3 +20,6 @@ Once you have the environment activated, you can run the notebook or the script.
 
 # Running the notebook
 Get inside of `The_Fate_of_Baldo.ipynb` and run the cells, there's instructions in the notebook, but if you have any questions, please ask me!
+
+
+# Documentation

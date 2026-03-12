@@ -28,6 +28,15 @@ class Retrieve:
         self.manual_hhmer(num_hits=num_hits)
         self.rank_homologs()
 
+
+    def setup_directories(self):
+        os.makedirs("temp", exist_ok=True)
+        os.makedirs("Templates", exist_ok=True)
+        os.makedirs("Alignments", exist_ok=True)
+        os.makedirs("databases/swissprot", exist_ok=True)
+        os.makedirs("databases/pdb_seq", exist_ok=True)
+        os.makedirs("databases/hmm/Pfam", exist_ok=True)
+
     def database_exists(self, db_path, db_file, db):
         if (db_path / db_file).exists():
             return True

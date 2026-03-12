@@ -135,3 +135,6 @@ class TemplateProcessor:
             raise
         except FileNotFoundError:
             raise
+    
+    #def run_hmmsearch(self, sequence, output_file):
+        
