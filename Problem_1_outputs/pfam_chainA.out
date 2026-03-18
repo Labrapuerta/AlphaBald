@@ -1,0 +1,15 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+Myc-LZ               PF02344.21 ChainA               -            1.7e-12   47.4  14.1   1.7e-12   47.4  14.1   2.1   2   0   0   2   2   2   1 Myc leucine zipper domain
+HLH                  PF00010.32 ChainA               -            5.9e-11   42.6   1.3   5.9e-11   42.6   1.3   2.4   3   0   0   3   3   3   2 Helix-loop-helix DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      Problem_1_outputs/chain_a.fa
+# Target file:     databases/hmm/Pfam/Pfam-A.hmm
+# Option settings: hmmscan --tblout Problem_1_outputs/pfam_chainA.out -E 1e-5 databases/hmm/Pfam/Pfam-A.hmm Problem_1_outputs/chain_a.fa 
+# Current dir:     /Users/manueldelabra/Documents/Master/SBI/AlphaBald
+# Date:            Wed Mar 18 11:31:13 2026
+# [ok]

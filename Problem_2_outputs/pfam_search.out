@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+MIP                  PF00230.26 TM_Protein           -              7e-48  163.9  19.3   8.3e-48  163.7  19.3   1.1   1   0   0   1   1   1   1 Major intrinsic protein
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      Problem_2_outputs/target.fa
+# Target file:     databases/hmm/Pfam/Pfam-A.hmm
+# Option settings: hmmscan --tblout Problem_2_outputs/pfam_search.out --domtblout Problem_2_outputs/pfam_search_dom.out -E 1e-5 databases/hmm/Pfam/Pfam-A.hmm Problem_2_outputs/target.fa 
+# Current dir:     /Users/manueldelabra/Documents/Master/SBI/AlphaBald
+# Date:            Wed Mar 18 11:05:14 2026
+# [ok]

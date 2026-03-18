@@ -1,0 +1,14 @@
+#                                                               --- full sequence ---- --- best 1 domain ---- --- domain number estimation ----
+# target name        accession  query name           accession    E-value  score  bias   E-value  score  bias   exp reg clu  ov env dom rep inc description of target
+#------------------- ---------- -------------------- ---------- --------- ------ ----- --------- ------ -----   --- --- --- --- --- --- --- --- ---------------------
+HLH                  PF00010.32 ChainB               -            4.1e-07   30.3   0.0   7.6e-07   29.4   0.0   1.4   1   0   0   1   1   1   1 Helix-loop-helix DNA-binding domain
+#
+# Program:         hmmscan
+# Version:         3.4 (Aug 2023)
+# Pipeline mode:   SCAN
+# Query file:      Problem_1_outputs/chain_b.fa
+# Target file:     databases/hmm/Pfam/Pfam-A.hmm
+# Option settings: hmmscan --tblout Problem_1_outputs/pfam_chainB.out -E 1e-5 databases/hmm/Pfam/Pfam-A.hmm Problem_1_outputs/chain_b.fa 
+# Current dir:     /Users/manueldelabra/Documents/Master/SBI/AlphaBald
+# Date:            Wed Mar 18 11:31:14 2026
+# [ok]

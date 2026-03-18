@@ -1,0 +1,47 @@
+
+In a biotechnological company they are studying the use of a proteolytic enzyme and an inhibitor
+They have isolated and sequenced both:
+
+Enzyme:
+MNGEIRLIPYVTNEQIMDVNELPEGIKVIKAPEMWAKGVKGKNIKVAVLDTGCDTSHPDLKNQIIGGKNFTDDDGGKEDAISDYNGHGTHVAGTIAANDSNGGIAGVAPEASLLIVKVLGGENGSGQYEWIINGINYAVEQKVDIISMSLGGPSDVPELKEAVKNAVKNGVLVVCAAGNEGDGDERTEELSYPAAYNEVIAVGSVSVARELSEFSNANKEIDLVAPGENILSTLPNKKYGKLTGTSMAAPHVSGALALIKSYEEESFQRKLSESEVFAQLIRRTLPLDIAKTLAGNGFLYLTAPDELAEKAEQSHLLTL
+
+Inhibitor:
+GMENQEVVLSIDAIQEPEQIKFNMSLKNQSERAIEFQFSTGQKFELVVYDSEHKERYRYSKEKMFTQAFQNLTLESGETYDFSDVWKEVPEPGTYEVKVTFKGRAENLKQVQAVQQFEVK
+ 
+
+Some questions have arised, and after modelling both they have used docking to check the ability of the inhibitor to hamper the enzymatic function.
+In the folder SCRATCH are the last minute results of the ftdock program. The chain of the enzyme was named E and the chain of the inhibitor I, and
+the execution of the program was:
+
+ftdock -static enzyme.pdb -mobile inhibitor.pdb
+
+NOTE 1: the models were constructed with the full sequence.
+NOTE 2: Use the database of PDB sequences  "pdb_seqres.fa"
+
+Points	Question 
+======	========
+
+0.5 	a)   What kind of enzyme and inhibitor are these proteins. What's the PFAM family domain(s) of each?
+             Obtain the PFAM domain(s) and name it(them) as: enzyme_1.hmmm, enzyme_2.hmmm etc. and inhibitor_1.hmm inhibitor_2.hmm etc.
+             for both enzyme and inhibtor sequences, respectively.
+1.0 	b)   Obtain the structure of both molecules with the side-chains and name them: enzyme_0.pdb and inhbitor.pdb
+0.5 	c)   If the structure of the enzyme has some problem, locate the problem by identifying the residues in the structure 
+             and explain a reason for this problem. Make an image to show the wrong region (p31c.png)
+    	d)   Try to modify the structure and improve the quality of the structure. 
+             Proof your reasoning:
+0.5 	d.1) Name the new structure enzyme.pdb
+0.5 	d.2) Proof with a number the quality of your model and show with an image if the structure is 
+             better than the original (p31d2.png)
+
+1.0     e)   Obtain between 1 and 10 poses (conformations) of the interaction between enzyme and inhibitor ensuring that at least the 
+             active site of the enzyme interacts with the inibitor (Name the PDBs as Complex_1g.pdb, Complex_2g.pdb etc.) 
+1.0     f)   Select one conformation with the best score by FTDOCK that you also consider is the most representative of these solutions 
+             (i.e. this is the most often repeated or similar pose among all solutions). Identify a close homolog of the enzyme inhibited by
+             eglin-C (an inhibitor from Leech) and compare it with your selected complex using a superimposition. Safe the PDB of the 
+             superimposition as  p31f.pdb and use an image to identify the region that you think is responsible for the inhibition in both
+             inhibitors (use a figure as p31f_fig.png)
+1.0     g)   Compare the sequences of the peptide regions responsible for the inhibition of both inhibitors (for eaxample with an alignment)
+             and give your arguments on the potential of a peptide to be used as an inhibitor. 
+              
+
+

@@ -1,0 +1,39 @@
+ANSWERS PROBLEM 3
+
+0.5	a) What function do you think it may have? 
+Protease.
+
+0.5	b) Does it belongs to some family of PFAM?. If so, obtain the HMM profile from PFAM and name it P1_domain.hmm
+Retroviral aspartyl protease (RVP)
+
+0.5	c) Does the structure of this protein belongs to some fold in SCOP?, which one?
+Acid proteases (SCOP ID: 2000671) barrel, closed, n=6, S=10, complex topology
+
+1.0	d) Obtain the secondary structure of the problem with DSSP and name it P1_dssp.dssp (WARNING NOTE: DSSP requieres the full MAINCHAIN, with only CA trace it will not work).
+
+0.5	e) Do you think the prediction of secondary structure agrees with the actual secondary structure from DSSP?. Obtain an alignment as proof and name it P1_secondary_structure.aln. Is this prediction reliable?
+For the NLMLALTSALLL sequence, there is no actual helix according to DSSP, so the prediction is unreliable in this segment. In the MODEL.HORIZ file we see that this sequence should be helix with a confidence of 9.
+
+0.5	f) Do you think the structure is correct? Can you prove it? show one or more images of the energies that prove it and name them P1_energies1.png, P1_energies2.png, and so on and so forth. 
+NO. The model has more energy than the template, especially in the final region.
+The model was colored in red and the template in green.
+
+0.5	g) Find if there is some structural problem and show the location of all those you find with an image (name it P1_structural_problem.png). What's(are) the sequence fragment(s) with this problem?
+The problem sequence is: NLMLALTSALLL.
+
+0.5	h) Do you think the protein PROBLEM, as it is originally in the file, can work as a dimer (homo-dimer)? show an image that can prove it (name it P1_dimer.png)
+No, it cannot act as a dimer because the problematic loop coincides with one of the residues involved in the catalytic site.
+The model was colored in red and the template in green.
+
+0.5	i) The scientific community is interested in obtaining inhibitors for this protein. Could you obtain the structure of the problem protein binding an inhibitor drug? Take a picture of the site at which this protein can bind an inhibitor drug and name it active_site.png.
+
+1.0	j) Identify 3 relevant amino acids for the interaction with the inhibitor drug you have chosen. Take pictures showing how these relevant amino acids interact with the inhibitor drug and call them relevant_aminoacid1.png, relevant_aminoacid2.png and relevant_aminoacid3.png. What mutations do you think that can make that the problem protein develops tolerance for this drug? 
+
+1.0	k) If the structure of the PROBLEM was incorrect (answer in g), try to fix it. Name the new monomer model as P1_corrected_model.pdb. Compare the energies with PROSA (show the result with images and name them P1_corrected_energies1.png, P1_corrected_energies2.png, and so on and so forth)
+The model was colored in red, the template in green and the corrected model in yellow. Although it doesn't reach the energy levels of the template, the model correction improves the energy profile of the model.
+
+1.0	l) Do you think your new model can work as a dimer? If so, obtain the structure of the dimer and name it P1_corrected_dimer.pdb. Show with an image if the original model couldn't make a dimer, why your new model can (or cannot) make it?. Name the image P1_corrected_dimer.png. 
+Yes, it will be able to act as a dimer because we see that it retains the Asn88 involved in catalytic activity and is interacting with the ligand in both the template and the new corrected model.
+
+1.0	m) Take two images of different polar interactions taking place between the two subunits of your corrected dimer. If you couldn't obtain the corrected dimer, then get the images using the non corrected dimer you obtained in question h. The images should be named polar_contact1.png and polar_contact2.png and should include the distance of the contact. Images should display the atoms involved in the polar contact. Explain what kind of polar contact you are showing in each image.
+
