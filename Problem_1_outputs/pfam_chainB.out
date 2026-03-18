@@ -10,5 +10,5 @@ HLH                  PF00010.32 ChainB               -            4.1e-07   30.3
 # Target file:     databases/hmm/Pfam/Pfam-A.hmm
 # Option settings: hmmscan --tblout Problem_1_outputs/pfam_chainB.out -E 1e-5 databases/hmm/Pfam/Pfam-A.hmm Problem_1_outputs/chain_b.fa 
 # Current dir:     /Users/manueldelabra/Documents/Master/SBI/AlphaBald
-# Date:            Wed Mar 18 11:31:14 2026
+# Date:            Wed Mar 18 12:17:01 2026
 # [ok]

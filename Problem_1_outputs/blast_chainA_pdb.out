@@ -1,5 +1,15 @@
-1NKP_A	150	7.09e-49	89.888	100	4	85
-6G6J_A	150	1.06e-48	89.888	100	10	91
-5I4Z_A	142	5.55e-45	85.393	100	32	113
-8OTT_M	97.4	3.77e-28	85.000	67	1	53
-1A93_A	56.6	3.63e-12	96.667	34	4	33
+1NKP_A	150	7.09e-49	89.888	100	Chain A, Myc proto-oncogene protein [Homo sapiens]
+6G6J_A	150	1.06e-48	89.888	100	Chain A, Myc proto-oncogene protein [Homo sapiens]
+5I4Z_A	142	5.55e-45	85.393	100	Chain A, Myc proto-oncogene protein [Homo sapiens]
+8OTT_M	97.4	3.77e-28	85.000	67	Chain M, Myc proto-oncogene protein [Homo sapiens]
+1A93_A	56.6	3.63e-12	96.667	34	Chain A, MYC PROTO-ONCOGENE PROTEIN [Homo sapiens]
+8OTT_N	46.6	5.72e-08	50.000	52	Chain N, Protein max [Homo sapiens]
+1R05_A	47.0	7.02e-08	50.000	52	Chain A, Max protein [Homo sapiens]
+1NKP_B	47.0	7.48e-08	50.000	52	Chain B, Max protein [Homo sapiens]
+1HLO_A	46.6	8.42e-08	50.000	52	Chain A, PROTEIN (TRANSCRIPTION FACTOR MAX) [Homo sapiens]
+5EYO_A	47.0	8.62e-08	50.000	52	Chain A, Protein max [Homo sapiens]
+8OTS_N	46.6	8.80e-08	50.000	52	Chain N, Protein max [Homo sapiens]
+6G6J_B	46.6	9.29e-08	50.000	52	Chain B, Protein max [Homo sapiens]
+1AN2_A	46.6	9.40e-08	50.000	52	Chain A, PROTEIN (TRANSCRIPTION FACTOR MAX (TF MAX)) [unidentified]
+1NLW_B	46.6	9.99e-08	50.000	52	Chain B, MAX PROTEIN [Homo sapiens]
+7RCU_A	35.4	7.79e-04	53.571	31	Chain A, Protein max [Homo sapiens]

@@ -1,0 +1,31 @@
+problem
+
+a) 0.5 pt
+b) 0.5 pt
+c) 0.5 pt
+d) 0.5 pt
+e) 1 pt
+f) 1 pt
+
+Our group is stuydying a transmembrane protein. 
+However, it seems to be some problem with sequence and it's not clear if it will still work (the sequence is at the bottom). 
+We have decided to model the structure and check the quality of the model with ProSA. 
+Part of our team thinks that we shouldn't use ProSA. 
+Part of the team also thinks that the molecule should work as dimer or as tetramer. 
+
+Try to answer their questions:
+
+a) What's the fold of this protein? 
+b) What's its function? does it belong to some PFAM family? which one? 
+   download the HMM profile and save it as p48b.hmm 
+c) Model the structure of the protein and save the PDB file as p42c.pdb 
+d) Do you think ProSA can be used to analyzer the quality of the model? 
+   Answer why, and propose some other method to validate the structure. 
+   Still, show an image with the pseudo-energy profile p42d.png 
+e) Does it work as monomer or should it work as a complex (dimer or tetramer)?
+   Model the structure of the complex and answer if the complex can be made or not.
+   Show with an image your reasonings (p42e.jpg) and if it works as a complex obtain the structure as p42e.pdb 
+f) If there is a problem on the structure, try to fix it. Name te structure with the solved problem in the monomer as p42f1.pdb, and the structure of the complex as p42f2.pdb. Show with an image that the probelem is not there anymore p42f.jpg 
+
+SEQUENCE:
+MFRKLAAECFGTFWLVFGGCGSAVLAAGFPELGIGFAGVALAFGLTVLTMAFAVGHISGGHFNPAVTIGLWAGGRFPAKEVVGYVIAQVVGGIVAAALLYLIASGKTGFDAAASGFASNGYGEHSPGGYSMLSALVVELVLSAGFLLVIHGATDKFAPAGFAPIAIGLALLLALTSTTLIHLISIPVTNTSVNPARSTAVAIFQGGWALEQLWFFWVVPIVGGIIGGLIYRTLLEKRD
